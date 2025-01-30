@@ -112,9 +112,9 @@ pipenv install
 
 ## 📜 Licenza
 
-Questo progetto è distribuito sotto la **MIT License**.
+Questo progetto è distribuito sotto la **GNU GPL v3 License**.
 
 ---
 
-💡 **Autore:** [Il Tuo Nome](https://github.com/TUO_USERNAME)
+💡 **Autore:** [Berzelius](https://github.com/berzelius)
 
