@@ -1,13 +1,28 @@
 # 📌 Generatore di Risposte con Gemini AI
 
-Questo progetto utilizza **Google Gemini AI** per generare risposte a una serie di domande fornite in un file YAML. Le risposte vengono salvate in un file di output con timestamp.
+Questo progetto utilizza **Google Gemini AI** per generare risposte a una serie di domande fornite in un file YAML. Le risposte vengono salvate in un file di output con timestamp. 
 
 ## 📋 Requisiti
 
 Assicurati di avere installato:
-- **Python 3.13** (o versione compatibile)
+- **Python 3.12** (o versione compatibile)
 - **pipenv** per la gestione dell'ambiente virtuale
 - Un account Google con accesso all'API di **Gemini AI**
+
+## 🔑 Ottenere una API Key di Gemini
+
+Per ottenere una chiave API di Google Gemini:
+
+1. Vai sulla documentazione [Google AI for developers](https://ai.google.dev/gemini-api/docs/api-key?hl=it)
+2. Accedi con il tuo account Google
+3. Segui le istruzioni e crea un nuovo progetto se necessario su Google AI Studio
+4. Abilita le API di Gemini nella console di Google Cloud
+5. Genera una nuova chiave API e copiala
+6. Salva la chiave nel file `.env` come segue:
+
+```ini
+GOOGLE_API_KEY=la_tua_api_key
+```
 
 ## ⚙️ Setup del Progetto
 
@@ -97,9 +112,9 @@ pipenv install
 
 ## 📜 Licenza
 
-Questo progetto è distribuito sotto la **GNU GPL v3 License**.
+Questo progetto è distribuito sotto la **MIT License**.
 
 ---
 
-💡 **Autore:** [Marco Pecoraro](https://github.com/TUO_USERNAME)
+💡 **Autore:** [Il Tuo Nome](https://github.com/TUO_USERNAME)
 
