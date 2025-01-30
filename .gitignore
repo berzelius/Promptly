@@ -1,0 +1,15 @@
+# Ambiente virtuale Pipenv
+Pipfile.lock
+.venv/
+
+# Credenziali e variabili d'ambiente
+.env
+
+# File di output
+output/
+risposte_*.txt
+
+# File di sistema
+__pycache__/
+*.pyc
+.DS_Store
