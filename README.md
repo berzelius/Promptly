@@ -64,14 +64,14 @@ domande:
 Una volta configurato tutto, esegui lo script con:
 
 ```sh
-pipenv run python script.py
+pipenv run python promptly.py
 ```
 
 Se vuoi entrare nell'ambiente virtuale prima di eseguire il comando:
 
 ```sh
 pipenv shell
-python script.py
+python promptly.py
 ```
 
 Il programma elaborerà le domande e salverà le risposte in un file all'interno della cartella `output/`, con un nome del tipo:
@@ -84,7 +84,7 @@ output/risposte_YYYYMMDD_HHMMSS.txt
 
 ```
 📂 NOME_REPO
-├── 📄 script.py          # Script principale
+├── 📄 promptly.py        # Script principale
 ├── 📄 domande.yml        # File con le domande
 ├── 📄 Pipfile            # Configurazione di Pipenv
 ├── 📄 .env               # Variabili d'ambiente (NON VA VERSIONATO)
